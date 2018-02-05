@@ -1,0 +1,48 @@
+	body
+	{
+		color:white; 
+	}
+	
+	#header{
+		font-size:30px;
+		text-align:center;
+	}
+	#content{
+		float : left;
+		font-size : 25px;
+	}
+	#nav{
+		padding : none;
+		margin : none;
+		border : 1px solid gray;
+		background-color : #000000;
+		float : left;
+		font-size : 30px;
+		width : 100%;
+	}
+	ul li a li{
+		display : none;
+	}
+	li a:hover{
+		display : block;
+	}
+	li{
+		float : left;
+		padding : 10px;
+		border : 1px solid gray;
+	}
+	a:hover#navlink
+	{
+		text-decoration : underline;
+		color : #ff9999;
+		font-weight : bold;
+	}	
+	a:link#navlink
+	{
+		text-decoration : none;
+	}
+	a:visited#navlink
+	{
+		color : #ff9999;
+		text-decoration : none;
+	}
