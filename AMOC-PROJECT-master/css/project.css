@@ -1,0 +1,81 @@
+	@media screen and (min-width : 800px)
+	{
+		body{
+			background-image : url('../images/home3.jpg');
+			color : white;
+		}
+		li{
+			font-size : 80px;
+		}
+	}
+	@media screen and (max-width : 799px)
+	{
+		body{
+			background-image : url('../images/home2.jpg');
+			color : #ffff05;
+ 		}
+	}
+	@media screen and (max-width : 400px)
+	{
+		li{
+			font-size : 15px;
+		}
+	}
+	body{
+		font-family : Arial;
+		background-color : rgba(255,255,255,0.1);
+	}
+	ul#drop-list{
+		display : none; 
+	}
+	#header{
+		font-size:30px;
+		text-align:center;
+	}
+	#content{
+		float : left;
+		font-size : 20px;
+	}
+	#nav{
+		padding : none;
+		margin : none;
+		float : left;
+		font-size : 20px;
+		width : 100%;
+		line-height : 40px; 
+	}
+	ul{
+		list-style-type : none;
+	}
+	li{
+		background-color : #110011;
+		float : left;
+		padding : 10px;
+		border : 1px solid gray;
+		text-align : center;
+		width : 30%;
+		font-size : 90%;
+	}
+	li:hover{
+		background-color : white; 
+	}
+	a:hover#navlink{
+		font-weight : bold; 
+	}
+	a:link#navlink{
+		color : #ff9900;
+		text-decoration : none;
+	}
+	a:visited#navlink{
+		color : #ff9900;
+		text-decoration : none;
+	}
+	#select{
+		width : 30.2%;
+		text-align : center;
+		float : left;
+		height : 300px;
+		border : 0.02px solid gray;
+		margin : 0.5%;
+		font-size : 70%;
+	}
